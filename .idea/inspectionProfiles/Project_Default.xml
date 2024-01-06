@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="MockitoUnitTesting-3" />
+          <option value="MockitoUnitTesting-3" />
+          <option value="MockitoUnitTesting-3" />
+          <option value="MockitoUnitTesting-3" />
+          <option value="MockitoUnitTesting-3" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="commons-codec:commons-codec:1.2" />
+          <option value="commons-httpclient:commons-httpclient:3.1" />
+          <option value="nekohtml:nekohtml:1.9.6.2" />
+          <option value="org.apache.jackrabbit:jackrabbit-webdav:1.5.0" />
+          <option value="org.codehaus.plexus:plexus-utils:1.5.15" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Fixed in branch" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
